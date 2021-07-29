@@ -1,0 +1,296 @@
+﻿{
+  "$type": "System.Collections.Generic.List`1[[SigningPortal.BusinessProcess.Core.Models.BusinessProcessTask, SigningPortal.BusinessProcess.Core]], mscorlib",
+  "$values": [
+    {
+      "$type": "SigningPortal.BusinessProcess.Core.Models.BusinessProcessTask, SigningPortal.BusinessProcess.Core",
+      "step": "bbc16cd4-d73f-42d6-8359-d9ad40d9eb0c",
+      "type": 0,
+      "task": null,
+      "model": null,
+      "success": "d9b84472-6825-4a57-9d9b-5b9e13bd0804",
+      "fail": null
+    },
+    {
+      "$type": "SigningPortal.BusinessProcess.Core.Models.BusinessProcessTask, SigningPortal.BusinessProcess.Core",
+      "step": "d9b84472-6825-4a57-9d9b-5b9e13bd0804",
+      "type": 3,
+      "task": "SigningPortal.BusinessProcess.Core.Tasks.EventTasks.RegisterEventBpTask, SigningPortal.BusinessProcess.Core, Version=2.2.0.0, Culture=neutral, PublicKeyToken=null",
+      "model": {
+        "$type": "SigningPortal.BusinessProcess.Core.Tasks.Models.EventModel, SigningPortal.BusinessProcess.Core",
+        "Type": 5,
+        "Key": null,
+        "Position": "30ee0ab8-690c-4257-887d-5ce5f933839b"
+      },
+      "success": "8c968e56-4e64-4954-8de7-57f41323aef8",
+      "fail": null
+    },
+    {
+      "$type": "SigningPortal.BusinessProcess.Core.Models.BusinessProcessTask, SigningPortal.BusinessProcess.Core",
+      "step": "8c968e56-4e64-4954-8de7-57f41323aef8",
+      "type": 1,
+      "task": "SigningPortal.BusinessProcess.Core.Tasks.ActionTasks.AllowUserToSignBpTask, SigningPortal.BusinessProcess.Core, Version=2.2.0.0, Culture=neutral, PublicKeyToken=null",
+      "model": {
+        "$type": "SigningPortal.BusinessProcess.Core.Tasks.Models.UserModel, SigningPortal.BusinessProcess.Core",
+        "UserId": 207,
+        "Email": "Emaila01de191-a097-4b63-a5b4-2955685d1d46"
+      },
+      "success": "566e53e3-1711-4ed9-bd08-ce5656030b6f",
+      "fail": null
+    },
+    {
+      "$type": "SigningPortal.BusinessProcess.Core.Models.BusinessProcessTask, SigningPortal.BusinessProcess.Core",
+      "step": "566e53e3-1711-4ed9-bd08-ce5656030b6f",
+      "type": 5,
+      "task": "SigningPortal.BusinessProcess.Core.Tasks.NotificationTasks.SendInvitationForSignBpTask, SigningPortal.BusinessProcess.Core, Version=2.2.0.0, Culture=neutral, PublicKeyToken=null",
+      "model": {
+        "$type": "SigningPortal.BusinessProcess.Core.Tasks.Models.UserModel, SigningPortal.BusinessProcess.Core",
+        "UserId": 207,
+        "Email": "Emaila01de191-a097-4b63-a5b4-2955685d1d46"
+      },
+      "success": "4867ed23-63be-48cc-a91c-22614a81623e",
+      "fail": null
+    },
+    {
+      "$type": "SigningPortal.BusinessProcess.Core.Models.BusinessProcessTask, SigningPortal.BusinessProcess.Core",
+      "step": "4867ed23-63be-48cc-a91c-22614a81623e",
+      "type": 1,
+      "task": "SigningPortal.BusinessProcess.Core.Tasks.ActionTasks.AllowUserToSignBpTask, SigningPortal.BusinessProcess.Core, Version=2.2.0.0, Culture=neutral, PublicKeyToken=null",
+      "model": {
+        "$type": "SigningPortal.BusinessProcess.Core.Tasks.Models.UserModel, SigningPortal.BusinessProcess.Core",
+        "UserId": 235,
+        "Email": "Emailad0ffb6d-430d-4118-bf6c-8ffeb4289ca8"
+      },
+      "success": "28e9cb4d-96a1-4ed6-95c1-c1d390d428b7",
+      "fail": null
+    },
+    {
+      "$type": "SigningPortal.BusinessProcess.Core.Models.BusinessProcessTask, SigningPortal.BusinessProcess.Core",
+      "step": "28e9cb4d-96a1-4ed6-95c1-c1d390d428b7",
+      "type": 5,
+      "task": "SigningPortal.BusinessProcess.Core.Tasks.NotificationTasks.SendInvitationForSignBpTask, SigningPortal.BusinessProcess.Core, Version=2.2.0.0, Culture=neutral, PublicKeyToken=null",
+      "model": {
+        "$type": "SigningPortal.BusinessProcess.Core.Tasks.Models.UserModel, SigningPortal.BusinessProcess.Core",
+        "UserId": 235,
+        "Email": "Emailad0ffb6d-430d-4118-bf6c-8ffeb4289ca8"
+      },
+      "success": "6292ad31-ffa6-4489-acbb-8a6afda4b24e",
+      "fail": null
+    },
+    {
+      "$type": "SigningPortal.BusinessProcess.Core.Models.BusinessProcessTask, SigningPortal.BusinessProcess.Core",
+      "step": "6292ad31-ffa6-4489-acbb-8a6afda4b24e",
+      "type": 1,
+      "task": "SigningPortal.BusinessProcess.Core.Tasks.ActionTasks.AllowUserToSignBpTask, SigningPortal.BusinessProcess.Core, Version=2.2.0.0, Culture=neutral, PublicKeyToken=null",
+      "model": {
+        "$type": "SigningPortal.BusinessProcess.Core.Tasks.Models.UserModel, SigningPortal.BusinessProcess.Core",
+        "UserId": 98,
+        "Email": "Emaildbff0ff3-1c33-4530-851e-c2ae13890962"
+      },
+      "success": "11a2f634-a0f4-483b-8149-4197e5ede2a1",
+      "fail": null
+    },
+    {
+      "$type": "SigningPortal.BusinessProcess.Core.Models.BusinessProcessTask, SigningPortal.BusinessProcess.Core",
+      "step": "11a2f634-a0f4-483b-8149-4197e5ede2a1",
+      "type": 5,
+      "task": "SigningPortal.BusinessProcess.Core.Tasks.NotificationTasks.SendInvitationForSignBpTask, SigningPortal.BusinessProcess.Core, Version=2.2.0.0, Culture=neutral, PublicKeyToken=null",
+      "model": {
+        "$type": "SigningPortal.BusinessProcess.Core.Tasks.Models.UserModel, SigningPortal.BusinessProcess.Core",
+        "UserId": 98,
+        "Email": "Emaildbff0ff3-1c33-4530-851e-c2ae13890962"
+      },
+      "success": "aedda834-d36a-421b-9cf3-a7fff79aac14",
+      "fail": null
+    },
+    {
+      "$type": "SigningPortal.BusinessProcess.Core.Models.BusinessProcessTask, SigningPortal.BusinessProcess.Core",
+      "step": "aedda834-d36a-421b-9cf3-a7fff79aac14",
+      "type": 3,
+      "task": "SigningPortal.BusinessProcess.Core.Tasks.EventTasks.RegisterEventBpTask, SigningPortal.BusinessProcess.Core, Version=2.2.0.0, Culture=neutral, PublicKeyToken=null",
+      "model": {
+        "$type": "SigningPortal.BusinessProcess.Core.Tasks.Models.EventModel, SigningPortal.BusinessProcess.Core",
+        "Type": 0,
+        "Key": null,
+        "Position": "acc9ca9d-e9df-4fa4-9a20-e22fb9df23f7"
+      },
+      "success": "fec731dd-c48b-4cbc-860e-dc067f1ebfde",
+      "fail": null
+    },
+    {
+      "$type": "SigningPortal.BusinessProcess.Core.Models.BusinessProcessTask, SigningPortal.BusinessProcess.Core",
+      "step": "fec731dd-c48b-4cbc-860e-dc067f1ebfde",
+      "type": 5,
+      "task": "SigningPortal.BusinessProcess.Core.Tasks.NotificationTasks.SendLetterTaskRejectedBpTask, SigningPortal.BusinessProcess.Core, Version=2.2.0.0, Culture=neutral, PublicKeyToken=null",
+      "model": {
+        "$type": "SigningPortal.BusinessProcess.Core.Tasks.Models.UserModel, SigningPortal.BusinessProcess.Core",
+        "UserId": 207,
+        "Email": "Emaila01de191-a097-4b63-a5b4-2955685d1d46"
+      },
+      "success": "cc7e090a-4343-4cf1-bb51-9a0d77af6d94",
+      "fail": null
+    },
+    {
+      "$type": "SigningPortal.BusinessProcess.Core.Models.BusinessProcessTask, SigningPortal.BusinessProcess.Core",
+      "step": "cc7e090a-4343-4cf1-bb51-9a0d77af6d94",
+      "type": 5,
+      "task": "SigningPortal.BusinessProcess.Core.Tasks.NotificationTasks.SendLetterTaskRejectedBpTask, SigningPortal.BusinessProcess.Core, Version=2.2.0.0, Culture=neutral, PublicKeyToken=null",
+      "model": {
+        "$type": "SigningPortal.BusinessProcess.Core.Tasks.Models.UserModel, SigningPortal.BusinessProcess.Core",
+        "UserId": 235,
+        "Email": "Emailad0ffb6d-430d-4118-bf6c-8ffeb4289ca8"
+      },
+      "success": "d36dd621-72e9-4cd6-86c0-cd53eb79cca8",
+      "fail": null
+    },
+    {
+      "$type": "SigningPortal.BusinessProcess.Core.Models.BusinessProcessTask, SigningPortal.BusinessProcess.Core",
+      "step": "d36dd621-72e9-4cd6-86c0-cd53eb79cca8",
+      "type": 5,
+      "task": "SigningPortal.BusinessProcess.Core.Tasks.NotificationTasks.SendLetterTaskRejectedBpTask, SigningPortal.BusinessProcess.Core, Version=2.2.0.0, Culture=neutral, PublicKeyToken=null",
+      "model": {
+        "$type": "SigningPortal.BusinessProcess.Core.Tasks.Models.UserModel, SigningPortal.BusinessProcess.Core",
+        "UserId": 98,
+        "Email": "Emaildbff0ff3-1c33-4530-851e-c2ae13890962"
+      },
+      "success": "4f937cd1-4b15-4333-8f13-4dd9cc3ae8d5",
+      "fail": null
+    },
+    {
+      "$type": "SigningPortal.BusinessProcess.Core.Models.BusinessProcessTask, SigningPortal.BusinessProcess.Core",
+      "step": "4f937cd1-4b15-4333-8f13-4dd9cc3ae8d5",
+      "type": 3,
+      "task": "SigningPortal.BusinessProcess.Core.Tasks.EventTasks.RegisterEventBpTask, SigningPortal.BusinessProcess.Core, Version=2.2.0.0, Culture=neutral, PublicKeyToken=null",
+      "model": {
+        "$type": "SigningPortal.BusinessProcess.Core.Tasks.Models.EventModel, SigningPortal.BusinessProcess.Core",
+        "Type": 1,
+        "Key": null,
+        "Position": "ddd5c2d9-60ec-440d-abcb-f764d2138167"
+      },
+      "success": "e608844f-e926-4ab8-81c0-d6671d9ae3c8",
+      "fail": null
+    },
+    {
+      "$type": "SigningPortal.BusinessProcess.Core.Models.BusinessProcessTask, SigningPortal.BusinessProcess.Core",
+      "step": "e608844f-e926-4ab8-81c0-d6671d9ae3c8",
+      "type": 10,
+      "task": null,
+      "model": null,
+      "success": null,
+      "fail": null
+    },
+    {
+      "$type": "SigningPortal.BusinessProcess.Core.Models.BusinessProcessTask, SigningPortal.BusinessProcess.Core",
+      "step": "1cb80cff-4759-43ef-a7c9-95fd0a418451",
+      "type": 15,
+      "task": null,
+      "model": null,
+      "success": null,
+      "fail": null
+    },
+    {
+      "$type": "SigningPortal.BusinessProcess.Core.Models.BusinessProcessTask, SigningPortal.BusinessProcess.Core",
+      "step": "30ee0ab8-690c-4257-887d-5ce5f933839b",
+      "type": 5,
+      "task": "SigningPortal.BusinessProcess.Core.Tasks.NotificationTasks.SendLetterErrorBpTask, SigningPortal.BusinessProcess.Core, Version=2.2.0.0, Culture=neutral, PublicKeyToken=null",
+      "model": {
+        "$type": "SigningPortal.BusinessProcess.Core.Tasks.Models.UserModel, SigningPortal.BusinessProcess.Core",
+        "UserId": 123,
+        "Email": "SenderEmaild632654e-ac45-4d30-bbd6-b7a3474fd828"
+      },
+      "success": "049a48b2-5380-448b-a2df-4c45c569bc8f",
+      "fail": null
+    },
+    {
+      "$type": "SigningPortal.BusinessProcess.Core.Models.BusinessProcessTask, SigningPortal.BusinessProcess.Core",
+      "step": "049a48b2-5380-448b-a2df-4c45c569bc8f",
+      "type": 10,
+      "task": null,
+      "model": null,
+      "success": null,
+      "fail": null
+    },
+    {
+      "$type": "SigningPortal.BusinessProcess.Core.Models.BusinessProcessTask, SigningPortal.BusinessProcess.Core",
+      "step": "acc9ca9d-e9df-4fa4-9a20-e22fb9df23f7",
+      "type": 2,
+      "task": "SigningPortal.BusinessProcess.Core.Tasks.ConditionTasks.ExpressionConditionBpTask, SigningPortal.BusinessProcess.Core, Version=2.2.0.0, Culture=neutral, PublicKeyToken=null",
+      "model": {
+        "$type": "SigningPortal.BusinessProcess.Core.Tasks.Models.ExpressionCodeModel, SigningPortal.BusinessProcess.Core",
+        "ExpressionCode": "\r\n            bool allSignedOrRejected = true;\r\n            foreach (var signingItem in CurrentTask.Signers)\r\n            {\r\n                if (!((int) signingItem.Status == 2 ||\r\n                    (int) signingItem.Status == 3))\r\n                {\r\n                    return false;\r\n                }\r\n            }\r\n            return true;\r\n"
+      },
+      "success": "bc28576b-1374-4bda-940a-c0b3e97d12d1",
+      "fail": "f24be642-9d76-46ad-8af7-2bf51e1f10f6"
+    },
+    {
+      "$type": "SigningPortal.BusinessProcess.Core.Models.BusinessProcessTask, SigningPortal.BusinessProcess.Core",
+      "step": "4177f7bc-3307-4a5c-81ab-a830a27c89dc",
+      "type": 10,
+      "task": null,
+      "model": null,
+      "success": null,
+      "fail": null
+    },
+    {
+      "$type": "SigningPortal.BusinessProcess.Core.Models.BusinessProcessTask, SigningPortal.BusinessProcess.Core",
+      "step": "bc28576b-1374-4bda-940a-c0b3e97d12d1",
+      "type": 1,
+      "task": "SigningPortal.BusinessProcess.Core.Tasks.ActionTasks.SetTaskCompletedBpTask, SigningPortal.BusinessProcess.Core, Version=2.2.0.0, Culture=neutral, PublicKeyToken=null",
+      "model": {
+        "$type": "SigningPortal.BusinessProcess.Core.Tasks.Models.EmptyModel, SigningPortal.BusinessProcess.Core"
+      },
+      "success": "d897f1c3-fa55-42da-881f-ab70d7ac00b8",
+      "fail": null
+    },
+    {
+      "$type": "SigningPortal.BusinessProcess.Core.Models.BusinessProcessTask, SigningPortal.BusinessProcess.Core",
+      "step": "d897f1c3-fa55-42da-881f-ab70d7ac00b8",
+      "type": 5,
+      "task": "SigningPortal.BusinessProcess.Core.Tasks.NotificationTasks.SendLetterTaskCompletedBpTask, SigningPortal.BusinessProcess.Core, Version=2.2.0.0, Culture=neutral, PublicKeyToken=null",
+      "model": {
+        "$type": "SigningPortal.BusinessProcess.Core.Tasks.Models.UserModel, SigningPortal.BusinessProcess.Core",
+        "UserId": 123,
+        "Email": "SenderEmaild632654e-ac45-4d30-bbd6-b7a3474fd828"
+      },
+      "success": "2089bb1e-27c3-4fc9-8dcc-cd4b7b21b1d2",
+      "fail": null
+    },
+    {
+      "$type": "SigningPortal.BusinessProcess.Core.Models.BusinessProcessTask, SigningPortal.BusinessProcess.Core",
+      "step": "2089bb1e-27c3-4fc9-8dcc-cd4b7b21b1d2",
+      "type": 15,
+      "task": null,
+      "model": null,
+      "success": null,
+      "fail": null
+    },
+    {
+      "$type": "SigningPortal.BusinessProcess.Core.Models.BusinessProcessTask, SigningPortal.BusinessProcess.Core",
+      "step": "f24be642-9d76-46ad-8af7-2bf51e1f10f6",
+      "type": 10,
+      "task": null,
+      "model": null,
+      "success": null,
+      "fail": null
+    },
+    {
+      "$type": "SigningPortal.BusinessProcess.Core.Models.BusinessProcessTask, SigningPortal.BusinessProcess.Core",
+      "step": "ddd5c2d9-60ec-440d-abcb-f764d2138167",
+      "type": 1,
+      "task": "SigningPortal.BusinessProcess.Core.Tasks.ActionTasks.SetTaskRejectedBpTask, SigningPortal.BusinessProcess.Core, Version=2.2.0.0, Culture=neutral, PublicKeyToken=null",
+      "model": {
+        "$type": "SigningPortal.BusinessProcess.Core.Tasks.Models.EmptyModel, SigningPortal.BusinessProcess.Core"
+      },
+      "success": "adf61eac-4ed1-4145-91f1-34e604fd190c",
+      "fail": null
+    },
+    {
+      "$type": "SigningPortal.BusinessProcess.Core.Models.BusinessProcessTask, SigningPortal.BusinessProcess.Core",
+      "step": "adf61eac-4ed1-4145-91f1-34e604fd190c",
+      "type": 15,
+      "task": null,
+      "model": null,
+      "success": null,
+      "fail": null
+    }
+  ]
+}

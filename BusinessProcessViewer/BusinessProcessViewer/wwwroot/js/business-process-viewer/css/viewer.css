@@ -1,0 +1,16 @@
+﻿.graph {
+    background-color: blanchedalmond;
+    width: 80%;
+    height: 1000px;
+}
+
+.icon {
+    width: 64px;
+    position: relative;
+    display: flex;
+}
+
+#canvas_default {
+    position: absolute;
+    display: flex;
+}

@@ -1,0 +1,35 @@
+﻿<link rel="stylesheet" href="~/css/site.css" />
+<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+<link type="text/css" rel="stylesheet" href="~/js/business-process-viewer/css/viewer.css">
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/js/business-process-viewer/enums/task-type.js"></script>
+<script src="~/js/business-process-viewer/models/point.js"></script>
+<script src="~/js/business-process-viewer/business-process-viewer.js"></script>
+
+<h2> Business Process Viewer </h2>
+
+<div class="graph">
+
+    @*<img class="icon" src="/js/business-process-viewer/img/start.png" style="left: 100px; top: 20px;"/>*@
+
+
+
+</div>
+
+
+<script>
+
+
+    $(document).ready(function () {
+        $.getJSON("/Home/GetProcess", function (data) {
+            var viewer = new BusinessProcessViewer();
+
+            viewer.Draw(".graph", data);
+
+        });
+    });
+
+
+</script>
