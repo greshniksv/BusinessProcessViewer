@@ -14,12 +14,27 @@
         $(this.container).append("<canvas id=\"canvas_default\" width=\"" + width + "\" height=\"" + height + "\"></canvas>");
         this.canvas = document.querySelector("#canvas_default");
 
+
+        this.buildProcess(model);
+
         this.addElement(TaskType.Start, new Point(center, 30));
 
         this.addElement(TaskType.Start, new Point(center, 150));
         
 
         this.addRelation(new Point(center, 30), new Point(center, 150));
+
+    }
+
+    this.buildProcess = function(model)
+    {
+        for (var i = 0; i < model.length; i++) {
+            debugger;
+
+            model[i].type 
+
+        }
+
 
     }
 
@@ -37,12 +52,40 @@
         switch (type) {
 
             case TaskType.Start:
-
                 this.addImage(point, '/js/business-process-viewer/img/start.png');
                 break;
 
+            case TaskType.Condition:
+                this.addImage(point, '/js/business-process-viewer/img/condition.png');
+                break;
+
+            case TaskType.Action:
+                this.addImage(point, '/js/business-process-viewer/img/task.png');
+                break;
+
+            case TaskType.End:
+                this.addImage(point, '/js/business-process-viewer/img/end.png');
+                break;
+
+            case TaskType.Event:
+                this.addImage(point, '/js/business-process-viewer/img/create-event.png');
+                break;
+
+            case TaskType.Event:
+                this.addImage(point, '/js/business-process-viewer/img/create-event.png');
+                break;
+
+            case TaskType.Notification:
+                this.addImage(point, '/js/business-process-viewer/img/notification.png');
+                break;
+
+            case TaskType.Stop:
+                this.addImage(point, '/js/business-process-viewer/img/stop.png');
+                break;
+
+
             default:
-                this.addImage(point, '/js/business-process-viewer/img/start.png');
+                this.addImage(point, '/js/business-process-viewer/img/unknown.png');
                 break;
 
         }
