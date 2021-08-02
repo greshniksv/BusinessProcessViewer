@@ -214,20 +214,12 @@
 
     this.addElement = function (type, point, id) {
 
+        var size = 64;
         if (!this.loaded) {
             var object = new BpObject(point, id);
             this.objects.push(object);
         }
 
-        var size = 64;
-
-        //if (new BpObject(point, id).IsOnObject(this.mouse)) {
-        //    //size = 72;
-        //    this.infoBoard = {
-        //        point: new Point().Init(point),
-        //        id: id
-        //    };
-        //}
 
         switch (type) {
 
@@ -349,11 +341,17 @@
     this.drawInfo = function (point, item) {
         var ctx = this.canvas.getContext('2d');
 
+        var model = Object.assign({}, item.model);
+        delete model["$type"];
+        var arr = JSON.stringify(model, null, '\t').split("\n");
+
+        var height = 110 + (arr.length*16);
+
         ctx.fillStyle = '#e6e6e6';
         var rectangle = new Path2D();
-        rectangle.rect(point.X, point.Y, 440, 250);
+        rectangle.rect(point.X, point.Y, 440, height);
         var rectangle2 = new Path2D();
-        rectangle2.rect(point.X, point.Y, 440, 250);
+        rectangle2.rect(point.X, point.Y, 440, height);
         ctx.fill(rectangle);
 
         ctx.strokeStyle = '#4f4f4f';
@@ -374,13 +372,7 @@
         this.AddText("Task: " + taskName, point.IncY(15), settings);
         this.AddText("Success: " + item.success, point.IncY(15), settings);
         this.AddText("Fail: " + item.fail, point.IncY(15), settings);
-
-        var model = Object.assign({}, item.model);
-        delete model["$type"];
-
-        this.AddText("Model: " , point.IncY(15), settings);
-
-        var arr = JSON.stringify(model, null, '\t').split("\n");
+        this.AddText("Model: ", point.IncY(15), settings);
 
         for (var i = 0; i < arr.length; i++) {
             if (arr[i].length > 62) {
@@ -393,7 +385,6 @@
     this.AddText = function (text, point, settings)
     {
         var ctx = this.canvas.getContext('2d');
-
         ctx.fillStyle = settings.color;
         ctx.font = settings.font;
         ctx.fillText(text, point.X, point.Y);
@@ -416,8 +407,4 @@
             return v.toString(16);
         });
     }
-
 }
-
-
-
