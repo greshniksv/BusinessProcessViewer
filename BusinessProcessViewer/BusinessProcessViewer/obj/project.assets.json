@@ -8,19 +8,23 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {}
+    "C:\\Users\\gresh\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Documents\\Projects\\BusinessProcessViewer\\BusinessProcessViewer\\BusinessProcessViewer\\BusinessProcessViewer.csproj",
+      "projectUniqueName": "E:\\Projects\\BusinessProcessViewer\\BusinessProcessViewer\\BusinessProcessViewer\\BusinessProcessViewer.csproj",
       "projectName": "BusinessProcessViewer",
-      "projectPath": "C:\\Users\\user\\Documents\\Projects\\BusinessProcessViewer\\BusinessProcessViewer\\BusinessProcessViewer\\BusinessProcessViewer.csproj",
-      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Documents\\Projects\\BusinessProcessViewer\\BusinessProcessViewer\\BusinessProcessViewer\\obj\\",
+      "projectPath": "E:\\Projects\\BusinessProcessViewer\\BusinessProcessViewer\\BusinessProcessViewer\\BusinessProcessViewer.csproj",
+      "packagesPath": "C:\\Users\\gresh\\.nuget\\packages\\",
+      "outputPath": "E:\\Projects\\BusinessProcessViewer\\BusinessProcessViewer\\BusinessProcessViewer\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\gresh\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -63,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
       }
     }
   }

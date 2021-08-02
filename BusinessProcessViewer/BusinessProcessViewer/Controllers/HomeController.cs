@@ -39,7 +39,7 @@ namespace BusinessProcessViewer.Controllers
         {
             string json;
             using (TextReader reader = new StreamReader(
-                @"C:\Users\user\Documents\Projects\BusinessProcessViewer\BusinessProcessViewer\1.json",Encoding.UTF8))
+                @"E:\Projects\BusinessProcessViewer\BusinessProcessViewer\1.json", Encoding.UTF8))
             {
                 json = reader.ReadToEnd();
             }

@@ -5,6 +5,7 @@
 <script src="~/lib/jquery/dist/jquery.min.js"></script>
 <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 <script src="~/js/business-process-viewer/enums/task-type.js"></script>
+<script src="~/js/business-process-viewer/models/bp-object.js"></script>
 <script src="~/js/business-process-viewer/models/point.js"></script>
 <script src="~/js/business-process-viewer/business-process-viewer.js"></script>
 
@@ -24,9 +25,8 @@
 
     $(document).ready(function () {
         $.getJSON("/Home/GetProcess", function (data) {
-            var viewer = new BusinessProcessViewer();
 
-            viewer.Draw(".graph", data);
+            BusinessProcessViewer.Draw(".graph", data);
 
         });
     });
